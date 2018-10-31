@@ -1,0 +1,539 @@
+@font-face { 
+    font-family: KlavikaLight;
+    src: url(../fonts/KlavikaLight.otf);   
+}
+
+@font-face {
+    font-family: KlavikaRegular;
+    src: url(../fonts/KlavikaRegular.otf);
+}
+
+
+@font-face { 
+    font-family: KlavikaMedium;
+    src: url(../fonts/KlavikaMedium.otf);     
+}
+
+@font-face { 
+    font-family: KlavikaBold;
+    src: url(../fonts/KlavikaBold.otf);
+}
+
+body{
+	margin: 0%; 
+	padding: 0;
+}
+
+nav{
+	margin-left: -1%;	
+}
+
+#search{
+	display: inline-block;
+	float: right;
+	margin-top: -0.8%;
+	padding-right: 5%;
+}
+
+#scope{
+	width:40%;
+}
+
+
+.dropbtn {
+    background-color: #1e9bd7;
+	font-family: KlavikaMedium;
+	text-transform: uppercase;
+	color: #ffffff;
+    padding: 16px;
+    font-size: 13px;
+    border: none;
+}
+
+
+.dropdown {
+    position: fixed;
+	display: inline-block;
+	z-index: 2;
+	float: right;
+	padding-left: 80%;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1e9bd7;
+	font-family: KlavikaMedium;
+	text-transform: uppercase;
+	color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    background-color: #1e9bd7;
+	font-family: KlavikaMedium;
+	text-transform: uppercase;
+	color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+	background-color: #1e79df;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+.dropdown:hover .dropbtn 
+{
+	background-color: #1e79df;
+}
+
+#subtitle{
+	padding: 0% 0% 0% 14.3%;
+	font-family: KlavikaLight;
+	font-size: 50px;
+	color: #ffffff;
+	margin-top: 1.5%;
+	line-height: 1.1;
+	font-weight: 100;
+	letter-spacing: -1px;
+}
+
+#Date{
+	padding: 0% 0% 0% 14.5%;
+	color: #ffffff;
+	font-family: KlavikaLight;
+	font-size: 10px;
+	margin-top: -1%;
+}
+
+#leftbar{
+	width: 66%;
+	border: rgba(128, 128, 128, 0.21);
+	position: relative;
+	border-style: solid;
+	border-width: 1px;
+	padding: 4% 4%;
+	margin-top: 1.5%;
+	margin-left: 39%;
+	margin-right: 2%;
+	margin-bottom: 0.5%;
+	font-size: 12px;
+	font-family: KlavikaMedium;
+	}
+
+.article{
+	float: left;
+	width: 65%;
+}
+
+#first{
+	margin-top: 15%;
+	margin-left: -35%;
+	margin-right: -4%;
+	font-size: 14px;
+}
+
+#second{
+	width: 40%;
+	padding-left: 6%;
+}
+
+#third{
+	padding-left: 4%; 
+}
+
+.pic{
+	position:relative;
+	z-index: 0;
+	width: 22%;
+	float: right;
+	margin-top: 3%;
+}
+
+.rectangle{
+	float: left;
+	margin-left: 0.5%;
+	border-style: solid;
+	border-width: 1px;
+	padding: 0.3%;
+	font-family: KlavikaLight;
+	color: #ffffff;
+	font-size: 10px;
+}
+
+#none{
+	border-top: 0.1px transparent solid;
+}
+
+
+ul{
+	color: #ffffff;
+	background-color: #1e9bd7;
+	position: fixed;
+	width: 100%;
+	list-style: none;
+	margin-top: 2.45%;
+	height: 10.7%;
+	z-index: 1;
+}
+
+li{
+	display: inline-block;
+	padding: 0% 0% 0% 6%;
+	margin: 0%;
+}
+
+li:hover{
+	-webkit-text-decoration: solid underline;
+    text-decoration: solid underline;
+    -webkit-text-underline-position: under;
+    text-underline-position: under;
+}
+
+a{  
+	color:#ffffff;
+	text-decoration: none;
+}
+
+#upperTitle{
+	position: fixed;
+	background-color: #1e9bd7;
+	font-family: KlavikaRegular;
+	font-size: 18px;
+	color: #ffffff;
+	width: 101%;
+	margin-top: -1%;
+	height: 5.4%;
+	z-index: 1;
+}
+
+#upperT{ 
+    padding: 0% 0% 0% 15%;
+	margin-top: 1.3%;
+}
+
+#upperLink{
+  	padding: 10% 0% 0% 14.3%;
+	color: #ffffff;
+	font-size: 10px;
+	font-family: Klavika;
+}
+
+#upperLinkTwo{
+  	opacity: 0.5;
+	z-index: 0;
+}
+
+#Equities{
+	padding: 4.25% 0% 0% 14.3%;
+	color: #ffffff;
+	font-family: KlavikaBold;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+#logo{
+	width: 4%;
+	padding-left: 12%;
+	padding-top: 1%;
+	padding-bottom: 1.5%;
+
+}
+
+#header{
+	width: 100%;
+	height: 710px;
+	margin: -10px 0px 0px 0px;
+	background: url(../images/overlay.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 100% 25%;
+}
+
+#content{
+	-ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    padding: 20px;
+	background-color: #ffffff;
+	font-family: KlavikaRegular;
+	font-size: 18px;
+	top:1500px;
+}
+
+.parragraph
+{
+	line-height: 2;
+	font-size: 14px;
+	font-family: Baskerville;
+}
+
+.icon{
+	border-bottom: 1px black solid;
+	width: 10%;
+}
+
+.row{
+	display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px; 
+}
+
+.column
+{
+    display: table-cell;
+}
+
+#author{
+	font-family: KlavikaBold;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+#authorName{
+	font-family: KlavikaBold;
+	font-size: 12px;
+}
+
+#proffesion{
+	font-size: 12px;
+}
+
+#whitePaper{
+	padding-bottom: 1%;
+	width: 47%;
+	padding-top: 1.5%;
+}
+
+#facebook{
+	padding-bottom: 1%;
+	padding-left: 20%;
+	padding-top: 15%;
+}
+
+#linkedin{
+	padding-bottom: 1%;
+	padding-left: 19%;
+	padding-top: 15%;
+}
+
+#twitter{
+	padding-bottom: 1%;
+	padding-left: 14%;
+	padding-top: 15%;
+}
+
+#youtube{
+	padding-bottom: 1%;
+	padding-left: 3%;
+	padding-top: 15%;
+}
+
+#email{
+	padding-bottom: 1%;
+	padding-left: 10%;
+	padding-top: 15%;
+}
+
+#print{
+	padding-bottom: 1%;
+	padding-left: 12%;
+	padding-top: 6%;
+}
+
+#navbar{
+	margin-left: 50%;
+	margin-top: -4%;
+	text-transform: uppercase;
+	font-family: KlavikaMedium;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+}
+
+#market{
+	margin-top:3%;
+}
+
+.leftLinks{
+    top: 10%;
+	margin: 0px 0px 65px 0px;
+	border-top: 0.1px grey solid;
+}
+
+#firstRectangle{
+	margin-left:14.5%;
+}
+
+#sub{
+	margin-bottom: -2%;
+}
+
+#more{
+	padding: 3% 14% 0%;
+	font-size: 12px;
+	font-family: KlavikaBold;
+}
+
+#unGoals{
+	display: inline-block;
+	margin: 2% 14% 5%;
+}
+
+.goal{
+	display: inline-block;
+	width: 24%;
+}
+
+
+.footerImage{
+	width: 90%;
+}
+
+.footerTitle{
+	font-family: KlavikaLight;
+	font-size: 18px;
+	margin-right: 10%;
+}
+
+.footerSubtitle{
+	width: 70%;
+}
+
+.footerDate{
+	font-size:12px;
+}
+
+.rights{
+	width: 70%;
+	margin: 2% 0% 0% 9.5%;
+	font-size: 12px;
+}
+
+footer{
+	background-color: #1e9bd7;
+	width: 100%;
+	min-height: 480px;
+	color: #ffffff;
+	font-family: klavikalight;
+	font-size: 18px;
+} 
+
+/* Media Queries */
+
+
+/* Devices (768 and down) */
+@media only screen and (max-width: 768px) {
+
+#navbar{
+	display:none;
+ }
+
+#upperTitle{
+	font-size: 12px;
+ }
+
+.footerTitle{
+	font-size: 10px;
+ }
+
+.article{
+	font-size: 8px;
+ }
+
+ #logo{
+	width: 8%; 
+ }
+
+}
+
+
+/* Small devices (phones, 360px and up) */
+@media only screen and (min-width: 360px) {
+   
+#upperLink{
+  	padding: 24% 0% 0% 14.3%;
+ }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+#upperLink{
+  	padding: 16% 0% 0% 14.3%;
+ } 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) {
+#upperLink{
+  	padding: 14% 0% 0% 14.3%;
+ } 
+
+.dropdown{
+	display:none;
+ }
+} 
+
+/* Devices (992 and down)*/
+@media only screen and (max-width: 992px) {
+#first{
+	margin-left: 0%;	
+ }
+
+#leftbar{
+	font-size: 10px; 
+ }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+#upperLink{
+  	padding: 11% 0% 0% 14.3%;
+ } 
+
+.dropdown{
+	display:none;
+ }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+#upperLink{
+  	padding: 10% 0% 0% 14.3%;
+ }
+
+.dropdown{
+	display:none;
+ }
+}
+
+
+/* Chrome */
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+#leftbar{
+	border-style: none;
+} 
+
+#header{
+	background-position: 100% 35%;
+ }
+}
+
+
+
+
+
+
+
